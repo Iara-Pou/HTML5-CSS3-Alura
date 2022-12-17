@@ -34,7 +34,8 @@ nav a {
 }
 
 a:hover {
-    color: orange;
+    color: #C78C19;
+    text-decoration: underline;
 }
 
 .productos {
@@ -57,14 +58,18 @@ a:hover {
 }
 
 .productos li:hover {
-    border-color: goldenrod;
+    border-color: #C78C19;
 }
-
-
+.productos li:active {
+    border-color: #088C19;
+}
 
 .productos h2 {
     font-size: 30px;
     font-weight: bold;
+}
+.productos li:hover h2{
+    font-size: 33px;
 }
 
 .producto-descripcion {
