@@ -85,6 +85,12 @@ a:hover {
 footer {
     padding: 40px;
     background: url(../imagenes/bg.jpg);
-    color: white;
     text-align: center;
 }
+
+#copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
