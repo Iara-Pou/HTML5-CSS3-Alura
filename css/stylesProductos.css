@@ -81,3 +81,10 @@ a:hover {
     font-size: 20px;
     font-weight: bold;
 }
+
+footer {
+    padding: 40px;
+    background: url(../imagenes/bg.jpg);
+    color: white;
+    text-align: center;
+}
