@@ -38,4 +38,14 @@ form input[type="radio"], form input[type="checkbox"]{
     background: orange;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+#boton-envio:hover{
+    transform: scale(1.01);
+
+    background: white;
+    color: orange;
+    border: 2px solid orange;
 }
