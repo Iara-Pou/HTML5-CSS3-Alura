@@ -39,15 +39,17 @@
             <label for="mensaje">Mensaje</label>
             <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
 
-            <p>¿Como le gustaría que lo contactemos?</p>
-            <label for="contacto-email">Email</label>
-            <input type="radio" name="contacto" id="contacto-email" checked>
-
-            <label for="contacto-telefono">Teléfono</label>
-            <input type="radio" name="contacto" id="contacto-telefono">
-
-            <label for="contacto-whatsapp">Whatsapp</label>
-            <input type="radio" name="contacto" id="contacto-whatsapp">
+            <div>
+                <p>¿Como le gustaría que lo contactemos?</p>
+                <label for="contacto-email">Email</label>
+                <input type="radio" value="email" name="contacto" id="contacto-email" checked>
+    
+                <label for="contacto-telefono">Teléfono</label>
+                <input type="radio" value="telefono" name="contacto" id="contacto-telefono">
+    
+                <label for="contacto-whatsapp">Whatsapp</label>
+                <input type="radio" value="whatsapp" name="contacto" id="contacto-whatsapp">
+            </div>
 
             <label for="horario">¿En cuál horario prefiere ser atendido?</label>
             <select name="horario" id="horario">
