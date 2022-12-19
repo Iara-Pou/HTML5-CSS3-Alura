@@ -39,21 +39,23 @@
             <label for="mensaje">Mensaje</label>
             <textarea name="" id="mensaje" cols="70" rows="10"></textarea>
 
-            <div>
-                <p>¿Como le gustaría que lo contactemos?</p>
+            <fieldset>
+                <legend>¿Como le gustaría que lo contactemos?</legend>
                 <label for="contacto-email"> <input type="radio" value="email" name="contacto" id="contacto-email" checked>Email</label>
 
                 <label for="contacto-telefono"><input type="radio" value="telefono" name="contacto" id="contacto-telefono">Teléfono</label>
                 
                 <label for="contacto-whatsapp"><input type="radio" value="whatsapp" name="contacto" id="contacto-whatsapp">Whatsapp</label>   
-            </div>
+            </fieldset>
 
-            <label for="horario">¿En cuál horario prefiere ser atendido?</label>
-            <select name="horario" id="horario">
-                <option value="maniana">Mañana</option>
-                <option value="tarde">Tarde</option>
-                <option value="noche">Noche</option>
-            </select>
+            <fieldset>
+                <legend>¿En cuál horario prefiere ser atendido?<legend>
+                <select name="horario">
+                    <option value="maniana">Mañana</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noche">Noche</option>
+                </select>
+            </fieldset>
 
             <label id="checkbox" for="quiere-novedades"><input type="checkbox" name="quiere-novedades" id="quiere-novedades">¿Le gustaría recibir novedades de la barbería por correo electrónico?</label>
 
