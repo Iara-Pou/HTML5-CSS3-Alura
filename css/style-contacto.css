@@ -25,3 +25,7 @@ form input[type="radio"], form input[type="checkbox"]{
     width: 1.5em;
 }
 
+#checkbox{
+    margin: 20px 0;
+}
+
