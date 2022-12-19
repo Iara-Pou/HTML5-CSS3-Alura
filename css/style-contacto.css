@@ -19,3 +19,9 @@ form input, form textarea{
     padding: 10px 25px;
     width: 50%;
 }
+
+form input[type="radio"], form input[type="checkbox"]{
+    display: inline;
+    width: 1.5em;
+}
+
