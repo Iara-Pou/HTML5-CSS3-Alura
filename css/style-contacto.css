@@ -29,3 +29,13 @@ form input[type="radio"], form input[type="checkbox"]{
     margin: 20px 0;
 }
 
+#boton-envio{
+    width: 40%;
+    padding: 15px;
+    font-size: 18px;    
+    font-weight: bold;
+    color:white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+}
