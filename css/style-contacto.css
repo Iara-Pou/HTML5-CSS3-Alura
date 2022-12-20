@@ -49,3 +49,7 @@ form input[type="radio"], form input[type="checkbox"]{
     color: orange;
     border: 2px solid orange;
 }
+
+table{
+    margin: 40px;
+}
