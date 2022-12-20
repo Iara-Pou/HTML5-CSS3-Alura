@@ -134,3 +134,7 @@ main {
     width: 60%;
 }
 
+iframe {
+    display: block;
+    margin: 20px auto 80px;
+}
