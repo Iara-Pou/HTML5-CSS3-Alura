@@ -60,6 +60,7 @@ a:hover {
 .productos li:hover {
     border-color: #C78C19;
 }
+
 .productos li:active {
     border-color: #088C19;
 }
@@ -68,7 +69,8 @@ a:hover {
     font-size: 30px;
     font-weight: bold;
 }
-.productos li:hover h2{
+
+.productos li:hover h2 {
     font-size: 33px;
 }
 
@@ -88,7 +90,7 @@ footer {
     text-align: center;
 }
 
-#copyright{
+#copyright {
     color: white;
     font-size: 13px;
     margin: 20px;
