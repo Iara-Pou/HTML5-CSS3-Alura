@@ -147,7 +147,8 @@ main {
     width: 60%;
 }
 
-iframe {
+#video iframe {
     display: block;
-    margin: 20px auto 80px;
+    margin: 1em auto;
 }
+
