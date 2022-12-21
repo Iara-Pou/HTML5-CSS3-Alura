@@ -100,17 +100,15 @@ footer {
 }
 
 /* CSS PARA PÁGINA INICIAL */
-main {
-    width: 970px;
-    margin: 0 auto;
-}
-
 #banner {
     width: 100%;
 }
 
 #principal {
+#contenido-principal{
+    width: 70%;
     padding: 3em 0;
+    margin: 0 auto;
 }
 
 .titulo-principal {
@@ -145,6 +143,12 @@ main {
 #ubicacion p{
     text-align: center;
     margin: 0 0 1.5em;
+}
+
+#mapa{
+display: block;
+width: 70%;
+margin: 0 auto;
 }
 
 #contenido-diferenciales{
