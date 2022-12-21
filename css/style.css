@@ -7,7 +7,7 @@ header {
 }
 
 .contenedor {
-    width: 970px;
+    width: auto;
     margin: 0 auto;
     position: relative;
 }
@@ -109,7 +109,7 @@ footer {
 }
 
 #principal > div{
-    width: 70%;
+    width: auto;
     padding: 3em 0;
     margin: 0 auto;
 }
@@ -151,7 +151,7 @@ footer {
 
 #mapa{
 display: block;
-width: 70%;
+width: auto;
 margin: 0 auto;
 }
 
@@ -183,7 +183,7 @@ margin: 0 auto;
 }
 
 #imagen-diferenciales {
-    width: 60%;
+    width: auto;
     transition: 400ms opacity;
     box-shadow: 5px 5px 2px black;
 }
@@ -196,3 +196,21 @@ margin: 0 auto;
     margin: 1em auto;
 }
 
+@media screen and (max-width:480px) {
+    h1{
+        text-align: center;
+    }
+
+    .contenedor, #principal>div, #mapa, #imagen-diferenciales{
+        width: auto;
+    }
+
+    nav{
+        position: static;
+    }
+
+    #contenido-diferenciales ul, #contenido-diferenciales img{
+        width: 100%;
+    }
+
+}
