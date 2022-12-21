@@ -105,6 +105,9 @@ footer {
 }
 
 #principal {
+    background-color: whitesmoke;
+}
+
 #contenido-principal{
     width: 70%;
     padding: 3em 0;
@@ -138,6 +141,7 @@ footer {
 
 #ubicacion{
     padding: 3em 0;
+    background-image: linear-gradient(whitesmoke, #CCCCCC);
 }
 
 #ubicacion p{
@@ -149,6 +153,11 @@ footer {
 display: block;
 width: 70%;
 margin: 0 auto;
+}
+
+#diferenciales{
+    background-color: #CCCCCC;
+    padding: 3em;
 }
 
 #contenido-diferenciales{
