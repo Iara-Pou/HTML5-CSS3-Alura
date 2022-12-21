@@ -184,6 +184,11 @@ margin: 0 auto;
 
 #imagen-diferenciales {
     width: 60%;
+    transition: 400ms opacity;
+    box-shadow: 5px 5px 2px black;
+}
+#imagen-diferenciales:hover{
+    opacity: 0.3;
 }
 
 #video{
