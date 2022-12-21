@@ -149,6 +149,20 @@ main {
 
 }
 
+#contenido-diferenciales ul{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    list-style: circle;
+}
+
+.items{
+    line-height: 1.5;
+}
+.items:first-child{
+    font-weight: bold;
+}
+
 #imagen-diferenciales {
     width: 60%;
 }
