@@ -143,6 +143,12 @@ main {
     margin: 0 0 1.5em;
 }
 
+#contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+
+}
+
 #imagen-diferenciales {
     width: 60%;
 }
