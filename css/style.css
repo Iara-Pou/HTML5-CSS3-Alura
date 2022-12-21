@@ -109,6 +109,10 @@ main {
     width: 100%;
 }
 
+#principal {
+    padding: 3em 0;
+}
+
 .titulo-principal {
     text-align: center;
     font-size: 2em;
@@ -131,7 +135,7 @@ main {
 #utensilios {
     width: 120px;
     float: left;
-    margin: 0 20px;
+    margin: 0 20px 0 0;
 }
 
 #ubicacion{
@@ -167,7 +171,7 @@ main {
     width: 60%;
 }
 
-#video iframe {
+#video{
     display: block;
     margin: 1em auto;
 }
