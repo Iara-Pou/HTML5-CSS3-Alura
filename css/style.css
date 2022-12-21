@@ -170,7 +170,6 @@ margin: 0 auto;
     width: 40%;
     display: inline-block;
     vertical-align: top;
-    list-style: circle;
 }
 
 .items{
@@ -178,6 +177,9 @@ margin: 0 auto;
 }
 .items:first-child{
     font-weight: bold;
+}
+.items::before{
+    content: "✂";
 }
 
 #imagen-diferenciales {
