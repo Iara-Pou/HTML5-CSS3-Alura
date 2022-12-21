@@ -7,7 +7,7 @@ header {
 }
 
 .contenedor {
-    width: 940px;
+    width: 970px;
     margin: 0 auto;
     position: relative;
 }
@@ -108,7 +108,7 @@ footer {
     background-color: whitesmoke;
 }
 
-#contenido-principal{
+#principal > div{
     width: 70%;
     padding: 3em 0;
     margin: 0 auto;
